@@ -11,8 +11,7 @@ A CocoaLumberjack logger to post log messages to papertrailapp.com. Currently, o
   s.source = { :git => "git@github.com:chillbear/papertrail-lumberjack-ios.git", :branch => 'master' }
 
   s.requires_arc = true
-  s.ios.platform = :ios, '5.0'
-  s.ios.deployment_target = '5.0'
+  s.platform = :ios, '5.0'
 
   s.source_files = 'Classes'
 
